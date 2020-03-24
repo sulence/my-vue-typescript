@@ -1,0 +1,19 @@
+$appBg: #1f2d3d;
+$menuBg:#304156;
+
+$sideBarWidth:210px;
+$subMenuBg:#1f2d3d;
+$subMenuHover:#001528;
+$subMenuActiveText:#f4f4f5;
+
+$subMenuActiveText:#f4f4f5;
+
+$menuText:#bfcbd9;
+$menuActiveText:#409EFF; // Also see settings.sidebarTextTheme
+
+:export {
+  appBg: $appBg;
+  menuBg: $menuBg;
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+}
