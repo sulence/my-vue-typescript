@@ -5,7 +5,7 @@
     // 采用的模块系统
     "module": "esnext",
     // 以严格模式解析
-    "strict": true,
+    "strict": false,
     "jsx": "preserve",
     // 从 tslib 导入外部帮助库: 比如__extends，__rest等
     "importHelpers": true,

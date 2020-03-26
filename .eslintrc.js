@@ -16,9 +16,10 @@ module.exports = {
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
-    'prettier/prettier': 1,
+    // 'prettier/prettier': 1,
     '@typescript-eslint/no-var-requires': 0,
     '@typescript-eslint/no-explicit-any': 'off',
     "@typescript-eslint/interface-name-prefix": 0,
+    '@typescript-eslint/no-non-null-assertion': 0,
   }
 };

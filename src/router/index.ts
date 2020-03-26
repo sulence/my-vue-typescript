@@ -113,6 +113,30 @@ export const constantRoutes: RouteConfig[] = [
         component: () => import("@/views/About.vue")
       }
     ]
+  },
+  {
+    path: "/components",
+    name: "Component",
+    component: Layout,
+    redirect: "/components/markdown",
+    meta: {
+      title: "components",
+      icon: "component"
+    },
+    children: [
+      {
+        path: "markdown",
+        component: () => import("@/views/markdown.vue"),
+        name: "MarkdownDemo",
+        meta: { title: "markdown" }
+      },
+      {
+        path: "a",
+        component: () => import("@/views/markdown.vue"),
+        name: "a",
+        meta: { title: "a" }
+      }
+    ]
   }
 ];
 
